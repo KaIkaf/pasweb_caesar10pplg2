@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkalian</title>
+    <link rel="stylesheet" href="perkalian.css">
+    <script> alert("selamat datang di perkalian") </script>
+</head>
+<body>
+    
+
+    <nav>
+        <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="pertambahan.html">Pertambahan</a>
+              </li>
+              <li>
+                <a href="pembagian.html">Pembagian</a>
+              </li>
+              <li>
+               <a href="pengurangan.html">Pengurangan</a>
+              </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+
+    <div class="jdlkli">
+        <h1 id="tjdl"> <center>Perkalian</center></h1>
+         </div>
+        <br>
+        <div class="wrapkli">
+            <img src="Asset/image/isi/cnvakali.png" width=" 500" alt="">
+            <div class="textkli">
+              <h2>Perkalian/kali</h2>
+              <p>Perkalian adalah operasi matematika yang digunakan untuk menggandakan satu bilangan dengan bilangan lainnya untuk mendapatkan hasil kali atau produk dari perkalian tersebut. Dalam perkalian, bilangan yang dikalikan disebut "faktor" atau "perkalian", dan hasilnya disebut "hasil kali".
+                Misalnya, dalam perkalian 4 x 5 = 20, bilangan 4 dikalikan dengan 5 untuk menghasilkan produk atau hasil kali 20. Proses ini melibatkan mengulang bilangan sebanyak faktor lainnya untuk mengetahui hasil akhirnya. Tanda operasi yang digunakan untuk perkalian adalah tanda silang (x) atau tanda titik (.) dalam penulisan matematika.
+              </p>
+            </div>
+          </div>
+           <br>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 id="qljudul">Quiz Latihan</h2>
+       <br>
+       <div class="allques">
+       <div class="question">
+        <p>1) 2 dikali (x) 4 hasilnya berapa ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q1" value="a">
+            a) 8
+        </label>
+        <label>
+            <input type="radio" name="q1" value="b">
+            b) 2
+        </label>
+        <label>
+            <input type="radio" name="q1" value="c">
+            c) 1
+        </label>
+        <label>
+            <input type="radio" name="q1" value="d">
+            d) 1
+        </label>
+    </div>
+<br>
+<br>
+   
+    <div class="question">
+        <p>2) Berapa  3 dikali (x) 3 ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q2" value="a">
+            a) 3
+        </label>
+        <label>
+            <input type="radio" name="q2" value="b">
+            b) 5
+        </label>
+        <label>
+            <input type="radio" name="q2" value="c">
+            c) 2
+        </label>
+        <label>
+            <input type="radio" name="q2" value="d">
+            d) 9
+        </label>
+    </div>
+<br>
+<br>
+     
+     <div class="question">
+        <p>3) 1 dikali 1 berapa?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q3" value="a">
+            a) 2
+        </label>
+        <label>
+            <input type="radio" name="q3" value="b">
+            b) 6
+        </label>
+        <label>
+            <input type="radio" name="q3" value="c">
+            c) 7
+        </label>
+        <label>
+            <input type="radio" name="q3" value="d">
+            d) 1
+        </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="question">
+        <p>4) berapa hasilnya jika 10  dikali 10  ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q4" value="a">
+            a) 11
+        </label>
+        <label>
+            <input type="radio" name="q4" value="b">
+            b) 100
+        </label>
+        <label>
+            <input type="radio" name="q4" value="c">
+            c) 1
+        </label>
+        <label>
+            <input type="radio" name="q4" value="d">
+            d) 7
+        </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="question">
+        <p>5) berapa 4 dikali 4 ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q5" value="a">
+            a) 2
+        </label>
+        <label>
+            <input type="radio" name="q5" value="b">
+            b) 16
+        </label>
+        <label>
+            <input type="radio" name="q5" value="c">
+            c) 1
+        </label>
+        <label>
+            <input type="radio" name="q5" value="d">
+            d) 2
+        </label>
+    </div>
+  </div>
+
+    
+ <div class=" srbutton">
+    <button id="submitBtn" onclick="checkAnswers()">Submit</button>
+    <button id="resetBtn" onclick="resetQuiz()">Reset</button>
+</div>
+<br>
+<br>
+<br>
+
+            <h3 class="kalkl"><center>Kalkulator Perkalian</center></h3>
+
+    <div class="Perkalian">
+    <label for="">Angka1</label>
+    <input type="text" id="angka1" oninput="inputs(this)">
+    <br>
+
+    <label for="">Angka2</label>
+    <input type="text" id="angka2" oninput="inputs(this)">
+    <br>
+
+    <label for=""> Hasil</label>
+    <input type="text" id="hasil" readonly>
+
+    <button onclick="fperkalian()">kali (x)</button>
+    <button onclick="reset()">reset</button>
+    </div>
+
+    <script>
+
+
+
+function resetQuiz() {
+    var totalQuestions = 5; 
+
+    for (var i = 1; i <= totalQuestions; i++) {
+        var options = document.getElementsByName('q' + i);
+        for (var j = 0; j < options.length; j++) {
+            if (options[j].checked) {
+                options[j].checked = false;
+            }
+        }
+    }
+}
+
+
+function checkAnswers() {
+    var correctAnswers = ["a", "a", "d", "b", "b"]; // Jawaban yang benar
+    var totalQuestions = 5; // Total pertanyaan,
+    var correctCount = 0;
+    var incorrectCount = 0;
+
+    var answerSummary = ''; // Untuk menyimpan  jawaban
+
+    for (var i = 1; i <= totalQuestions; i++) {
+        var userAnswer = document.querySelector('input[name="q' + i + '"]:checked');
+        if (userAnswer) {
+            if (userAnswer.value === correctAnswers[i - 1]) {
+                correctCount++;
+                answerSummary += "Pertanyaan " + i + ": Benar\n";
+            } else {
+                incorrectCount++;
+                answerSummary += "Pertanyaan " + i + ": Salah (Jawaban yang benar adalah " + correctAnswers[i - 1] + ")\n";
+            }
+        }
+    }
+
+    var summaryMessage =
+        "Jawaban benar: " +
+        correctCount +
+        "\nJawaban salah: " +
+        incorrectCount +
+        "\n " +
+        "===================\n " +
+        answerSummary;
+    alert(summaryMessage);
+}
+        var angka1 =document.getElementById("angka1");
+        var angka2 =document.getElementById("angka2");
+        var hasil = document.getElementById("hasil");
+
+        function inputs(input) {
+        input.value = input.value.replace(/\D/g, ''); 
+        }
+
+        function fperkalian(){
+            hasil.value = Number(angka1.value)*Number (angka2.value);
+
+            
+        }
+        function reset(){
+            angka1.value = "" ;
+            angka2.value ="";
+            hasil.value ="";
+        }
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+nav 
+{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position:fixed;
+    top: 0;
+}
+
+
+nav ul 
+{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0px;
+    display: flex; 
+}
+
+
+nav ul li 
+{
+    margin: 0;
+    padding: 20;
+}
+
+
+nav ul li a 
+{
+    display: block; 
+    color: white;
+    text-decoration: none; 
+    padding: 20px 25px;
+}
+
+
+nav ul li a:hover 
+{
+    background-color: #ffffff; 
+    transition: 0.3s; 
+    border-radius: 40px;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    background-color: black; 
+    background-image: url(Asset/image/isi/Canva.png);
+     min-height: 100vh;
+     background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: 100;
+    
+}
+
+.wraptmbh{
+    margin: 150px auto;
+    width: 90%;
+}
+
+.texttbh{
+  color: rgb(255, 255, 255);
+}
+.texttbh h2{
+    font-size: 42px;
+}
+.texttbh p{
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+img{
+    max-width: 1000px;
+    float: left;
+    border: 4px solid rgb(212, 212, 212);
+    border-radius: 15px;
+    margin-right: 20px;
+}
+#tjdl{
+   
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    
+}
+.jdltmbh{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 590px;
+    margin-left: 590px;
+    padding: 35px;
+    margin-top: 30px;
+    
+
+}
+.kaltmbh{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 35px;
+}
+
+label{
+    justify-content: center;
+    color: #ffffff;
+    padding: 15px;
+}
+input{
+    justify-content: center;
+    padding: 20px;
+}
+button{
+    padding: 5px;
+}
+
+.kalt{
+    font-size: 50px;
+    color: white;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.question p{
+    margin-left: 30px;
+}
+/* Gaya untuk opsi jawaban */
+.options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+/* Gaya untuk tombol Submit */
+
+.srbttn{
+    
+    padding-left: 2px;
+    margin: 20px;
+    border-radius: 15px;
+    margin-right:  1200px;
+}
+
+.allques{
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 20px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-top: 10px;
+}
+
+.options label{
+    color: black;
+}
+
+#qljudul{
+    margin-left: 500px; 
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.srbttn button{
+    
+        display: block;
+        margin: 0 auto;
+        /* Mengatur margin atas dan bawah untuk menengahkan tombol */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* Atur lebar dan tinggi jika diperlukan */
+        width: 100px;
+        height: 40px;
+        /* Style lainnya */
+        /* Misalnya warna latar belakang dan teks */
+        background-color: black;
+        
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      
+}
+
+#submitBtn {
+    
+    padding: 5px 10px;
+    margin-left: 500px;
+  }
+  
+  
+  #resetBtn {
+    
+    padding: 5px 15px;
+  }
+

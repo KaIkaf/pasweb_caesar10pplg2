@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengurangan</title>
+    <link rel="stylesheet" href="pengurangan.css">
+    <script> alert("selamat datang di pengurangan") </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="pertambahan.html">Pertambahan</a>
+              </li>
+              <li>
+                <a href="perkalian.html">Perkalian</a>
+              </li>
+              <li>
+               <a href="pembagian.html">Pembagian</a>
+              </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+
+      <div class="jdlkrng">
+    <h1 id="tjdl"> <center>Pengurangan</center></h1>
+     </div>
+    <br>
+    <div class="wrapkrng">
+        <img src="Asset/image/isi/cnvakurng.png" width=" 500" alt="">
+        <div class="textkrng">
+          <h2>Pengurangan/kurang</h2>
+          <p>Pengurangan adalah operasi matematika yang digunakan untuk mengurangi satu bilangan dari bilangan lainnya untuk mendapatkan selisih atau hasil akhir. Dalam pengurangan, bilangan yang dikurangkan disebut "pengurang" atau "pengurangan", dan bilangan yang dikurangkan darinya disebut "pengurang".
+            Misalnya, dalam pengurangan 8 - 3 = 5, angka 3 dikurangkan dari 8 untuk menghasilkan total 5. Proses ini melibatkan pengurangan nilai-nilai untuk mengetahui selisihnya. Tanda operasi yang digunakan untuk pengurangan adalah tanda minus (-).
+          </p>
+        </div>
+      </div>
+       <br>
+        <br>
+        <br>
+        <br>
+
+
+        <h2 id="qljudul">Quiz Latihan</h2>
+       <br>
+       <div class="allques">
+       <div class="question">
+        <p>1) 2 baju di kurang 2 baju menjadi berapa baju ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q1" value="a">
+            a) 4
+        </label>
+        <label>
+            <input type="radio" name="q1" value="b">
+            b) 1
+        </label>
+        <label>
+            <input type="radio" name="q1" value="c">
+            c) 0
+        </label>
+        <label>
+            <input type="radio" name="q1" value="d">
+            d) 3
+        </label>
+    </div>
+<br>
+<br>
+    <!-- Pertanyaan 2 -->
+    <div class="question">
+        <p>2) Berapa  4 - 1 ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q2" value="a">
+            a) 3
+        </label>
+        <label>
+            <input type="radio" name="q2" value="b">
+            b) 5
+        </label>
+        <label>
+            <input type="radio" name="q2" value="c">
+            c) 2
+        </label>
+        <label>
+            <input type="radio" name="q2" value="d">
+            d) 9
+        </label>
+    </div>
+<br>
+<br>
+     <!-- Pertanyaan 3 -->
+     <div class="question">
+        <p>3) 4 botol air dikurang 3 botol air menjadi ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q3" value="a">
+            a) 2
+        </label>
+        <label>
+            <input type="radio" name="q3" value="b">
+            b) 6
+        </label>
+        <label>
+            <input type="radio" name="q3" value="c">
+            c) 7
+        </label>
+        <label>
+            <input type="radio" name="q3" value="d">
+            d) 1
+        </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="question">
+        <p>4) berapa hasilnya jika 10 bola - 1 bola ?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q4" value="a">
+            a) 11
+        </label>
+        <label>
+            <input type="radio" name="q4" value="b">
+            b) 9
+        </label>
+        <label>
+            <input type="radio" name="q4" value="c">
+            c) 1
+        </label>
+        <label>
+            <input type="radio" name="q4" value="d">
+            d) 7
+        </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="question">
+        <p>5) berapa 4  - 2?</p>
+        <br>
+    </div>
+    <div class="options">
+        <label>
+            <input type="radio" name="q5" value="a">
+            a) 2
+        </label>
+        <label>
+            <input type="radio" name="q5" value="b">
+            b) 6
+        </label>
+        <label>
+            <input type="radio" name="q5" value="c">
+            c) 1
+        </label>
+        <label>
+            <input type="radio" name="q5" value="d">
+            d) 2
+        </label>
+    </div>
+  </div>
+
+   
+ <div class=" srbutton">
+    <button id="submitBtn" onclick="checkAnswers()">Submit</button>
+    <button id="resetBtn" onclick="resetQuiz()">Reset</button>
+</div>
+<br>
+<br>
+<br>
+        <h3 class="kalk"><center>Kalkulator Kurang</center></h3>
+
+        <div class="kalkrng">      
+
+    <label for="">Angka1</label>
+    <input type="text" id="angka1" oninput="inputs(this)">
+    <br>
+
+    <label for="">Angka2</label>
+    <input type="text" id="angka2" oninput="inputs(this)">
+    <br>
+
+    <label for=""> Hasil</label>
+    <input type="text" id="hasil" readonly>
+
+    <button onclick="fkurang()">kurang (-)</button>
+    <button onclick="reset()">reset</button>
+        </div>
+
+    <script>
+
+
+function resetQuiz() {
+    var totalQuestions = 5; 
+
+    for (var i = 1; i <= totalQuestions; i++) {
+        var options = document.getElementsByName('q' + i);
+        for (var j = 0; j < options.length; j++) {
+            if (options[j].checked) {
+                options[j].checked = false;
+            }
+        }
+    }
+}
+
+
+function checkAnswers() {
+    var correctAnswers = ["c", "a", "d", "b", "a"]; // Jawaban yang benar
+    var totalQuestions = 5; // Total pertanyaan
+
+    var correctCount = 0;
+    var incorrectCount = 0;
+
+    var answerSummary = ''; // Untuk menyimpen  jawaban
+
+    for (var i = 1; i <= totalQuestions; i++) {
+        var userAnswer = document.querySelector('input[name="q' + i + '"]:checked');
+        if (userAnswer) {
+            if (userAnswer.value === correctAnswers[i - 1]) {
+                correctCount++;
+                answerSummary += "Pertanyaan " + i + ": Benar\n";
+            } else {
+                incorrectCount++;
+                answerSummary += "Pertanyaan " + i + ": Salah (Jawaban yang benar adalah " + correctAnswers[i - 1] + ")\n";
+            }
+        }
+    }
+
+    var summaryMessage =
+        "Jawaban benar: " +
+        correctCount +
+        "\nJawaban salah: " +
+        incorrectCount +
+        "\n " +
+        "===================\n " +
+        answerSummary;
+    alert(summaryMessage);
+}
+        var angka1 =document.getElementById("angka1");
+        var angka2 =document.getElementById("angka2");
+        var hasil = document.getElementById("hasil");
+
+        function inputs(input) {
+        input.value = input.value.replace(/\D/g, ''); 
+        }
+
+        function fkurang(){
+            hasil.value = Number(angka1.value)-Number (angka2.value);
+
+            
+        }
+        function reset(){
+            angka1.value = "" ;
+            angka2.value ="";
+            hasil.value ="";
+        }
+
+
+    </script>
+</body>
+</html>
